@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Kw/h</title>
+    <link rel="stylesheet" type="text/css" href="kwh.css">
+    <script type="text/javascript" src="kwh.js"></script>
+</head>
+
+<body>
+    <h1 class="cabeçalho">Calcular KiloWatt Hora</h1>
+
+    <form action id="container">                                                                 <!--container de formulário-->
+        <input class="dir" type="number" placeholder="potencia (em Watts)" id="p"> <br> <br>       <!--entrada de dados do formulário-->
+        <input class="dir" type="number" placeholder="horas" id="h"> <br> <br>
+        <input class="dir" type="number" placeholder="dias" id="d"> <br> <br>
+         
+        <button class="bot" type="button" onclick="calcular()">Calcular</button>             <!--botão para ativar a função calcular-->
+    </form>
+                                    
+    
+</body>
+</html>
